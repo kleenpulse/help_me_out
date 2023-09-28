@@ -1,25 +1,28 @@
 {
-  "name": "help_me_out",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
-  },
-  "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
-    "@types/node": "latest",
-    "@types/react-dom": "latest",
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest"
-  }
+	"name": "help_me_out",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"build": "npm run prep",
+		"prep": "npm run exp && node out.js",
+		"exp": "next build && next export",
+		"run": "next start",
+		"dev": "next dev"
+	},
+	"dependencies": {
+		"glob": "^10.3.10",
+		"next": "latest",
+		"react": "latest",
+		"react-dom": "latest",
+		"sass": "^1.68.0"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"@types/react": "latest",
+		"@types/react-dom": "latest",
+		"autoprefixer": "latest",
+		"postcss": "latest",
+		"tailwindcss": "latest",
+		"typescript": "latest"
+	}
 }
