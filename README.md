@@ -1,4 +1,4 @@
-# Next.js Chrome Extension Starter 🚀
+# Help Me Out Chrome Extension 🚀
 
 Next.js Chrome Extension Starter is a demo example application that demonstrates how to build a Chrome extension using Next.js.
 
