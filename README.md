@@ -22,22 +22,16 @@ To install and run Next.js Chrome Extension Starter locally, follow these steps:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/ibnzUK/next-chrome-starter.git
+   git clone https://github.com/kleenpulse/help_me_out.git
    ```
 
 2. Navigate to project directory:
 
    ```
-   cd next-chrome-starter
+   cd help_me_out
    ```
 
-3. Navigate to project directory:
-
-   ```
-   cd next-chrome-starter
-   ```
-
-4. Install the dependencies using npm:
+3. Install the dependencies using npm:
    ```
    npm install
    ```
@@ -78,7 +72,7 @@ npm run build
 
 5. The Next.js Chrome Extension Starter should now be loaded as an unpacked extension in Google Chrome.
 
-![Preview](Screen1.jpg)
+![Preview](screen2.png)
 
 # Contributing
 
@@ -95,7 +89,7 @@ Chrome extension functionality, to provide a comprehensive guide for users.
 ```
 MIT License
 
-Copyright (c) 2023 Justinas Kairys (ibnzUk.eth)
+Copyright (c) 2023 Isaac Gideon (ibnzUk.eth)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
